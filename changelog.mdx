@@ -1,0 +1,109 @@
+---
+title: Changelog
+description: Track the latest updates and improvements to the Yogesh Agrawal documentation platform. Review recent changes to stay informed on new features and fixes.
+---
+
+## Recent Updates
+
+<Callout kind="info">
+Stay current with the latest enhancements to Yogesh Agrawal's documentation platform. Each release includes new features, performance improvements, and bug fixes to enhance your documentation experience.
+</Callout>
+
+<Update label="2024-10-15" description="v1.2.0" tags={["feature", "improvement"]}>
+
+## New Features
+
+- Added support for custom brand colors in themes, including `#3B82F6` as the default blue.
+- Introduced real-time collaboration previews for documentation editing.
+- Enhanced search functionality with fuzzy matching and syntax highlighting.
+
+## Improvements
+
+- Optimized page load times by `>30%` through better asset bundling.
+- Improved mobile responsiveness for all documentation pages.
+
+## Bug Fixes
+
+- Fixed anchor link navigation issues in long documents.
+- Resolved table rendering glitches on certain browsers.
+
+</Update>
+
+<Update label="2024-09-20" description="v1.1.0" tags={["feature", "bugfix"]}>
+
+## New Features
+
+- Integrated MDX component library with 15+ interactive elements like Steps and Tabs.
+- Added changelog tracking with Update components for version history.
+
+## Bug Fixes
+
+- Corrected frontmatter parsing errors in YAML blocks.
+- Fixed escaping issues for special characters like `{` and `<` in prose.
+
+## Improvements
+
+- Streamlined component syntax rules to prevent common parsing failures.
+
+</Update>
+
+<Update label="2024-08-10" description="v1.0.0" tags={["breaking", "feature"]}>
+
+## Initial Release
+
+- Launched core documentation platform with MDX support.
+- Included essential components: Callout, Cards, CodeGroup, and more.
+- Established consistent API patterns using `https://api.example.com` endpoints.
+
+## Breaking Changes
+
+- Updated attribute syntax to require double quotes for all strings.
+
+</Update>
+
+## Upcoming Roadmap
+
+<Columns cols={3}>
+  <Card title="Q4 2024" icon="zap" href="#">
+    AI-powered content suggestions and auto-generated diagrams.
+  </Card>
+  <Card title="Q1 2025" icon="shield" href="#">
+    Advanced security features including role-based access control.
+  </Card>
+  <Card title="Q2 2025" icon="trending-up" href="#">
+    Full analytics dashboard integration at `https://dashboard.example.com`.
+  </Card>
+</Columns>
+
+<Callout kind="tip">
+Subscribe to updates via the dashboard at `https://dashboard.example.com/notifications` to get notified of new releases automatically.
+</Callout>
+
+## Stay Involved
+
+Follow these steps to contribute to future updates:
+
+<Steps>
+  <Step title="Review Issues" icon="github">
+    Check the repository issues for open tasks.
+  </Step>
+  <Step title="Submit Pull Requests" icon="git-pull-request">
+    Fork the repo and submit your changes with clear descriptions.
+  </Step>
+  <Step title="Test Locally" icon="terminal">
+    Run `npm install` followed by `npm run dev` to preview changes.
+  </Step>
+</Steps>
+
+<Tabs>
+  <Tab title="npm" icon="package">
+````bash
+npm install yogesh-agrawal-docs
+````
+  </Tab>
+  <Tab title="yarn" icon="package">
+````bash
+yarn add yogesh-agrawal-docs
+````
+  </Tab>
+</Tabs>
